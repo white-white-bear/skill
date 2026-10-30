@@ -35,14 +35,36 @@ pip install -r requirements.txt
 
 装成 Claude Code skill：
 
+在 skill 仓库根目录执行（即 `ipa-study/` 的上一级）：
+
 ```bash
 # Windows
-New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\ipa-study" -Target "$PWD"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\ipa-study" -Target "$PWD\ipa-study"
 # macOS / Linux
-ln -s "$PWD" ~/.claude/skills/ipa-study
+ln -s "$PWD/ipa-study" ~/.claude/skills/ipa-study
 ```
 
 ## 用
+
+装好之后**不用记任何命令**。把音频丢给 Claude Code，说一句就行：
+
+> 把 `讲话.mp3` 做成发音精读版
+
+有文案就一起给（有标点最好，只有原始无标点转写也行）：
+
+> 音频是 `讲话.mp3`，文案在 `讲话.txt`
+
+短的一句到几句也可以，直接贴文字代替文案：
+
+> 把 `水.mp3` 做成精读版，内容是 "I boil some water. I pour a glass of milk."
+
+它会自己跑完转写和素材体检，然后在**分章**那一步停下来问你切在哪。
+这是设计好的，不是卡住了 —— 算法只看得见停顿，读不懂内容。
+定完边界会先出样张给你确认版式，认可了再出全书。
+
+想要自己控制每一步，用手动流程。
+
+### 手动跑
 
 ```bash
 ipa init --audio 素材.mp3 --out job.json    # 探测时长，自动选形态

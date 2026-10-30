@@ -10,14 +10,16 @@ Claude Code skills 合集。每个 skill 一个子目录，目录名即 skill �
 
 ## 安装
 
-把某个子目录链接到 Claude Code 的 skills 目录即可：
+把某个子目录链接到 Claude Code 的 skills 目录即可。
+
+Windows（在本仓库根目录执行）：
 
 ```powershell
-New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\ipa-study" -Target "F:\workspace\skill\ipa-study"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\ipa-study" -Target "$PWD\ipa-study"
 ```
 
-Linux/macOS：
+macOS / Linux：
 
 ```bash
-ln -s /path/to/skill/ipa-study ~/.claude/skills/ipa-study
+ln -s "$PWD/ipa-study" ~/.claude/skills/ipa-study
 ```
