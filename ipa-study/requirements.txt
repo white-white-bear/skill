@@ -1,0 +1,14 @@
+# 核心依赖。版本按 2026-10 验证过的组合钉住主版本。
+faster-whisper>=1.2,<2
+ctranslate2>=4.0
+praat-parselmouth>=0.4.7,<0.5
+reportlab>=4.0
+cmudict>=1.1,<2
+numpy>=1.26
+
+# 可选：字体码位校验（fonts --check）。缺了只会跳过检查，不影响渲染。
+fonttools>=4.50
+
+# 可选：PDF 验收（qa）。缺了跳过 PDF 层比对。
+pypdf>=4.0
+PyMuPDF>=1.24

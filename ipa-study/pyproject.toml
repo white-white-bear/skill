@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipa-study"
+version = "0.1.0"
+description = "逐词行间注发音精读 PDF 生成线"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.2,<2",
+    "praat-parselmouth>=0.4.7,<0.5",
+    "reportlab>=4.0",
+    "cmudict>=1.1,<2",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+check = ["fonttools>=4.50", "pypdf>=4.0", "PyMuPDF>=1.24"]
+
+[project.scripts]
+ipa = "ipa_study.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ipa_study*"]
+
+[tool.setuptools.package-data]
+ipa_study = ["lexicons/*.json", "render/i18n/*.json"]

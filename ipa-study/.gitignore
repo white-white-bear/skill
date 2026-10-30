@@ -1,0 +1,41 @@
+# 运行产物（在 job.json 旁边生成）
+out/
+audio/
+**/state/
+**/asr/
+**/align/
+**/chapterize/
+**/dedupe/
+**/profile/
+**/segment/
+**/meta/
+**/lexicon/
+**/qa.json
+**/words.jsonl
+**/words_raw.jsonl
+**/*_units.json
+
+# 媒体与成品
+*.wav
+*.mp3
+*.mp4
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地临时
+*.log
+*.tmp

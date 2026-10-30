@@ -1,0 +1,98 @@
+{
+  "cover": {
+    "tagline": "Word-by-word annotations, every mark measured from the original audio",
+    "howto_title": "How to use this book",
+    "howto": [
+      "Start with the map page and read the chapters as one continuous line;",
+      "Each chapter opens with a sentence tying it to the last one; the IPA above each word reflects how it was actually said;",
+      "Every paragraph ends with a summary, every chapter with questions — answer them before opening the book again."
+    ],
+    "howto_sections": [
+      "Skim the symbol table first so you know what each mark means;",
+      "Each section opens with a line tying it to the last one; the IPA above each word is how it was actually said;",
+      "Every paragraph ends with a summary, every section with questions — answer them before opening the book again."
+    ],
+    "howto_single": [
+      "Skim the symbol table first so you know what each mark means;",
+      "The IPA above each word is how it was actually pronounced; red marks what was raised;",
+      "Read the paragraph summary after each paragraph rather than at the very end."
+    ]
+  },
+  "legend": {
+    "title": "How to read the annotations",
+    "rows": [
+      ["ipa", "ˈdʒɑːbz", "The IPA directly above each word is its actual pronunciation here; ˈ primary stress, ˌ secondary."],
+      ["acc", "H", "Prominent words sit higher (H) / level (M) / lower (L) than the sentence, measured from F0."],
+      ["arrow", "", "Pitch movement across the stressed syllable: rising / falling / level."],
+      ["num", "+8  −3", "Semitone offset of each syllable from the sentence median."],
+      ["weak", "", "The vowel swapped in by reduction; the IPA row shows the reduced form."],
+      ["tie", "", "Linking: final consonant to initial vowel, or vowel to vowel."],
+      ["ipa2", "p̚ t̚ k̚", "Unreleased stop: closure without release."],
+      ["ipa3", "(t) (d)", "Elision: final /t/ /d/ dropped before a consonant."],
+      ["ipa4", "ɾ", "Flapping: /t/ /d/ after a voiced sound and before an unstressed vowel."]
+    ]
+  },
+  "symbols": {
+    "title": "Symbol table",
+    "caption": "Prominence in red, reduction in blue, linking in teal arcs, unreleased and elided sounds in brackets — four families that never overlap."
+  },
+  "summary": {
+    "head": "Paragraph summary | reduced {weak} · linked {link} · unreleased {unrel} · elided {elide} · flapped {flap}",
+    "weak": "reduced ",
+    "flap": "flapped ",
+    "lost": "elided / unreleased ",
+    "cite": "{word} /{cite}/→/{weak}/"
+  },
+  "chart": {
+    "title": "Reading the pitch numbers",
+    "intro": "The number above a syllable is its median F0 minus the sentence median, in semitones. Positive is higher than the sentence average, negative is lower.",
+    "col_levels": "Band (semitones)",
+    "col_meaning": "What it sounds like",
+    "col_example": "Example from this book",
+    "examples": "Three real examples",
+    "practice_title": "How to practise with this table",
+    "tips": [
+      "Read the word-level H / M / L first, then the syllable numbers, then say it yourself and compare.",
+      "Follow the shape, not the absolute value. Within ±1 semitone is measurement noise; ±3 is audible.",
+      "High-then-low is a fall, typical of statement endings; low-then-high rises, typical of emphasis."
+    ],
+    "levels": [
+      ["+9 and up", "well above the sentence; usually emotion or emphasis"],
+      ["+5 ~ +7", "the peak of this sentence sits on this word"],
+      ["+3 ~ +4", "a little above the sentence average"],
+      ["+1 ~ +2", "level with the sentence; not perceptually prominent"],
+      ["0", "right on the sentence average"],
+      ["−1 ~ −2", "slightly below the sentence"],
+      ["−3 ~ −5", "clearly below; often a falling ending"],
+      ["−6 and below", "very low; often faster speech or reduction"]
+    ]
+  },
+  "practice": [
+    "First pass: read only the English for meaning. Skip the IPA or your attention fragments.",
+    "Second pass: say only the red words — those are what the speaker lifted. Get them right and the sentence frame follows.",
+    "Third pass: hum the syllable numbers as a melody, then fit the English into it.",
+    "Finally look at the teal arcs and brackets: linking and elision come from speed, not memorisation."
+  ],
+  "map": {
+    "title": "Map of the book",
+    "intro": "Learn this line before the text. Each row reads: time — what happened — why it mattered."
+  },
+  "chapter": {
+    "label": "Chapter {n}",
+    "open_span": "Audio {span} | {n} sentences",
+    "keywords": "Keywords: {keys}",
+    "ask_head": "Close the chapter and answer first",
+    "next": "Next: {title}",
+    "section_label": "Section {n}"
+  },
+  "para": {
+    "label": "Paragraph {n}",
+    "time": "{a}–{b}s | {n} sentences"
+  },
+  "methods": {
+    "title": "Data and method"
+  },
+  "single": {
+    "label": "Study"
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title_en": "Steve Jobs",
+    "title_zh": "史蒂夫·乔布斯",
+    "subtitle": "发音精读版",
+    "slug": "steve-jobs",
+    "author": ""
+  },
+  "paths": {
+    "data_dir": "data",
+    "out_dir": "out",
+    "audio_dir": "audio"
+  },
+  "audio": {
+    "source": "F:\\text\\American accent\\10月27日\\10月27日.mp3",
+    "language": "en",
+    "duration": 3963.92,
+    "asr_rate": 16000,
+    "analysis_rate": 22050
+  },
+  "text": {
+    "source": "clean",
+    "path": "",
+    "pattern": "ch{id:02d}_final.txt",
+    "encoding": "utf-8",
+    "punctuation": "given"
+  },
+  "form": {
+    "kind": "book",
+    "min_minutes": 3.0,
+    "max_minutes": 12.0
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "家庭、学校与好奇心",
+      "start": 5.94,
+      "end": 293.3,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch01_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "开场。一个被收养的孩子，住在正在变成硅谷的地方。",
+        "keys": "收养 · 父亲的工具台 · 惠普",
+        "ask": [
+          "父亲的工作台，教给少年 Jobs 的是什么？",
+          "四年级老师用了什么办法把他拉回来？",
+          "从“被欺负”到“要搬家”，中间是一条什么因果链？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          0,
+          308
+        ],
+        "span_text": "00:00–04:53",
+        "raw_start": 5.94,
+        "raw_end": 293.3
+      }
+    },
+    {
+      "id": 2,
+      "title": "大学、蓝盒子与印度之行",
+      "start": 296.65,
+      "end": 583.06,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch02_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "上一章停在“他是个局外人”。这一章他离开学校，也离开美国。",
+        "keys": "Reed College · 蓝盒子 · 印度",
+        "ask": [
+          "他为什么只申请 Reed 一所学校？",
+          "蓝盒子让他第一次摸到了什么商业直觉？",
+          "印度的七个月，他带回来了哪三样东西？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          308,
+          721
+        ],
+        "span_text": "05:08–12:01",
+        "raw_start": 296.65,
+        "raw_end": 583.06
+      }
+    },
+    {
+      "id": 3,
+      "title": "Apple I：从兴趣走向生意",
+      "start": 584.46,
+      "end": 868.07,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch03_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "从印度回来的人，下一步把兴趣变成了生意。",
+        "keys": "Homebrew · Breakout · Byte Shop",
+        "ask": [
+          "Breakout 的 700 美元事件说明了什么？",
+          "Apple I 的第一笔订单是怎么来的？",
+          "这台机器为什么叫 Apple？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          721,
+          958
+        ],
+        "span_text": "12:01–15:58",
+        "raw_start": 584.46,
+        "raw_end": 868.07
+      }
+    },
+    {
+      "id": 4,
+      "title": "Apple II、Lisa 与个人生活",
+      "start": 868.39,
+      "end": 1238.58,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch04_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "公司有了产品，也有了第一个私人代价。",
+        "keys": "Apple II · Markkula · Lisa",
+        "ask": [
+          "Markkula 带来了什么，又换走了什么？",
+          "Apple III 的设计缺陷是怎么埋下的？",
+          "“Lisa”这个名字的两层含义是什么？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          958,
+          1405
+        ],
+        "span_text": "15:58–23:25",
+        "raw_start": 868.39,
+        "raw_end": 1238.58
+      }
+    },
+    {
+      "id": 5,
+      "title": "IBM、施乐 PARC 与 Macintosh",
+      "start": 1238.58,
+      "end": 1589.81,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch05_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "上市让 Apple 有钱，也让它从此必须一直赢。",
+        "keys": "IPO · Sculley · PARC",
+        "ask": [
+          "上市那天，他变成了什么样的人？",
+          "“卖一辈子糖水”那句话为什么奏效？",
+          "PARC 之行给了 Apple 什么，又没给什么？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          1405,
+          1840
+        ],
+        "span_text": "23:25–30:40",
+        "raw_start": 1238.58,
+        "raw_end": 1609.57,
+        "trimmed_to": 1589.81
+      }
+    },
+    {
+      "id": 6,
+      "title": "与 Sculley 冲突：离开 Apple",
+      "start": 1589.81,
+      "end": 2010.76,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch06_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "上一章他请进来的 CEO，这一章把他赶了出去。",
+        "keys": "1984 广告 · 定价 · 董事会",
+        "ask": [
+          "那支一分钟广告赌的是什么？",
+          "定价之争的本质，是钱还是控制权？",
+          "他为什么输给了自己请来的人？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          1840,
+          2049
+        ],
+        "span_text": "30:40–34:09",
+        "raw_start": 1589.81,
+        "raw_end": 2010.76
+      }
+    },
+    {
+      "id": 7,
+      "title": "NeXT、Pixar 与家庭关系",
+      "start": 2019.99,
+      "end": 2373.79,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch07_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "被赶出去的人，在两条战线上重新开始。",
+        "keys": "NeXT · Pixar · Mona Simpson",
+        "ask": [
+          "NeXT 的失败和 Pixar 的成功，差别在哪？",
+          "他为什么等到 Clara 去世才去找生母？",
+          "这一段里，他修好了哪几段关系？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          2049,
+          2456
+        ],
+        "span_text": "34:09–40:56",
+        "raw_start": 2019.99,
+        "raw_end": 2373.79
+      }
+    },
+    {
+      "id": 8,
+      "title": "NeXT 的挫折与重返 Apple",
+      "start": 2374.27,
+      "end": 2724.04,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch08_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "一家失败的产品公司，最后成了一张回家的门票。",
+        "keys": "收购 · 砍项目 · 微软结盟",
+        "ask": [
+          "Apple 买 NeXT，真正买的是什么？",
+          "“电梯恐惧”暴露了哪种管理风格？",
+          "1997 年的微软交易为什么非做不可？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          2456,
+          2772
+        ],
+        "span_text": "40:56–46:12",
+        "raw_start": 2374.27,
+        "raw_end": 2724.04
+      }
+    },
+    {
+      "id": 9,
+      "title": "Apple Store、iPod 与数字音乐",
+      "start": 2724.54,
+      "end": 3089.1,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch09_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "回来的这个人不再只做电脑，开始做体验。",
+        "keys": "零售店 · iPod · iTunes",
+        "ask": [
+          "Apple Store 要解决的两个问题是什么？",
+          "iPod 的机会窗口是怎么出现的？",
+          "iTunes 为什么必须和硬件绑在一起？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          2772,
+          3089
+        ],
+        "span_text": "46:12–51:29",
+        "raw_start": 2724.54,
+        "raw_end": 3089.1
+      }
+    },
+    {
+      "id": 10,
+      "title": "疾病、斯坦福演讲与转型",
+      "start": 3091.68,
+      "end": 3302.62,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch10_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "公司重新起飞的同时，身体开始倒计时。",
+        "keys": "癌症 · 斯坦福演讲 · Intel",
+        "ask": [
+          "推迟手术九个月，代价是什么？",
+          "斯坦福演讲里，“死亡”起了什么作用？",
+          "转向 Intel 为什么能提前一年完成？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          3089,
+          3311
+        ],
+        "span_text": "51:29–55:11",
+        "raw_start": 3091.68,
+        "raw_end": 3302.62
+      }
+    },
+    {
+      "id": 11,
+      "title": "iPhone 与 iPad",
+      "start": 3310.46,
+      "end": 3605.08,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch11_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "一个人的美学，变成了整个行业的默认设置。",
+        "keys": "多点触控 · 肝移植 · iPad",
+        "ask": [
+          "iPhone 首先删掉了什么？",
+          "他为什么拒绝 Cook 捐肝？",
+          "iPad 发布当天为什么先被嘲笑？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          3311,
+          3645
+        ],
+        "span_text": "55:11–01:00:45",
+        "raw_start": 3310.46,
+        "raw_end": 3605.08
+      }
+    },
+    {
+      "id": 12,
+      "title": "最后阶段与遗产",
+      "start": 3605.36,
+      "end": 3949.54,
+      "text_path": "F:\\workspace\\steve-jobs-ipa\\data\\ch12_final.txt",
+      "boundary_source": "legacy",
+      "meta": {
+        "carry": "最后一章：他把公司交出去，把方法留下来。",
+        "keys": "iCloud · 辞职 · 哲学",
+        "ask": [
+          "为什么说 iCloud 是他一贯逻辑的终点？",
+          "他最后留给 Cook 的那句话是什么？",
+          "所谓“哲学”，具体是哪几条？"
+        ]
+      },
+      "legacy": {
+        "pdf_span": [
+          3645,
+          3964
+        ],
+        "span_text": "01:00:45–01:05:44",
+        "raw_start": 3605.36,
+        "raw_end": 3949.54
+      }
+    }
+  ],
+  "asr": {
+    "model": "large-v3",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "vad": {
+      "filter": true,
+      "min_silence_ms": 300
+    },
+    "chunk": {
+      "target_sec": 600,
+      "min_silence_sec": 0.5
+    },
+    "gapfill": {
+      "enabled": true,
+      "gap_sec": 3.0,
+      "min_prob": 0.4
+    }
+  },
+  "align": {
+    "mode": "auto",
+    "band_width": 24,
+    "window_pad_before": 18,
+    "window_pad_after": 45,
+    "interpolate_weight": "phones",
+    "enforce_no_overlap": true
+  },
+  "segment": {
+    "sentence_gap_sec": 0.6,
+    "paragraph_gap_sec": 1.5,
+    "max_sentence_words": 45,
+    "min_sentence_words": 4
+  },
+  "chapterize": {
+    "candidate_gap_sec": 0.5,
+    "edge_margin_sec": 30.0
+  },
+  "lexicon": {
+    "base": "lexicons/base-en.json",
+    "project": "lexicon.json",
+    "manual": {},
+    "gate": {
+      "max_unresolved_ratio": 0.001,
+      "fail_frequency": 2
+    }
+  },
+  "annotate": {
+    "accent_threshold": 0.62,
+    "level_semitones": 2.2,
+    "contour_semitones_per_sec": 3.5,
+    "link_gap_sec": 0.06,
+    "calibration": "fixed",
+    "target_accent_ratio": 0.175,
+    "baseline_f0": 133.3
+  },
+  "render": {
+    "theme": {
+      "ipa_font": "",
+      "cjk_font": "",
+      "page": "A4",
+      "accent_color": "#b3261e",
+      "weak_color": "#1f5fa8",
+      "link_color": "#0f8b8d"
+    },
+    "features": {
+      "cover": true,
+      "map": true,
+      "pitch_page": true,
+      "legend": true,
+      "summary": true,
+      "chapter_questions": true
+    },
+    "content": {
+      "ui_lang": "zh",
+      "methods": "auto",
+      "map_rows": [
+        [
+          "1955",
+          "出生，被 Paul 与 Clara 收养",
+          "起点在硅谷还没成型的时候"
+        ],
+        [
+          "1968",
+          "Homestead 高中；认识 Wozniak",
+          "技术的另一半到这里出现"
+        ],
+        [
+          "1974",
+          "印度七个月",
+          "直觉被放在了理性前面"
+        ],
+        [
+          "1976",
+          "Apple I；1977 Apple II",
+          "兴趣第一次变成生意"
+        ],
+        [
+          "1980",
+          "Apple 上市",
+          "钱到账，董事会开始有话语权"
+        ],
+        [
+          "1984",
+          "Macintosh 发布",
+          "个人审美第一次变成产品"
+        ],
+        [
+          "1985",
+          "被 Sculley 赶出 Apple",
+          "最大的失败，也是后面一切的起点"
+        ],
+        [
+          "1986",
+          "买下 Pixar",
+          "学会不插手"
+        ],
+        [
+          "1996",
+          "Apple 收购 NeXT",
+          "失败的产品公司变成回家的门票"
+        ],
+        [
+          "2001",
+          "iPod；2003 iTunes",
+          "从卖设备转向卖体验"
+        ],
+        [
+          "2007",
+          "iPhone",
+          "删掉按钮，重新定义交互"
+        ],
+        [
+          "2011",
+          "辞职、去世",
+          "方法留下来，人被记住"
+        ]
+      ]
+    }
+  }
+}
